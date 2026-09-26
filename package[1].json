@@ -1,0 +1,14 @@
+
+{
+  "name": "quote-generator",
+  "version": "1.0.0",
+  "description": "Quote Generator with Favorites History",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
