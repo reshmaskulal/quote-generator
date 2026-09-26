@@ -1,1 +1,103 @@
 
+========== public/style.css ==========
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 850px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.quote-card,
+.history {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#quote {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#author {
+  text-align: center;
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #333;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+#message {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.favorite-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.favorite-item:last-child {
+  border-bottom: none;
+}
+
+.favorite-quote {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.favorite-author {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  background: #c0392b;
+  padding: 8px 12px;
+}
+
+.copy-history-btn {
+  background: #555;
+  padding: 8px 12px;
+  margin-left: 5px;
+}
+
